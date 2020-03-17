@@ -1,0 +1,63 @@
+Script started on 2020-02-14 23:34:07-1000
+[1m[7m%[27m[1m[0m ]2;kahlin@casca: ~/361/hw2]1;~/361/hw2[0m[27m[24m[J[01;32m➜  [36mhw2[00m [K[?1h=[?2004hssbcl[?1l>[?2004l
+]2;sbcl]1;sbclThis is SBCL 1.4.5.debian, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+* (load s "search.lisp")
+
+T
+* (load "farmer.lsi  isp")
+
+T
+* (load "jug.lisp")
+
+T
+* brea    (breadth *startf* *go oalf& * *movesf*)
+First on open list: (L 1 1 1)
+First on open list: (R 1 0 1)
+First on open list: (L 1 0 1)
+First on open list: (R 0 0 1)
+First on open list: (R 1 0 0)
+First on open list: (L 0 1 1)
+First on open list: (L 1 1 0)
+First on open list: (R 0 1 0)
+First on open list: (L 0 1 0)
+First on open list: (R 0 1 1)
+First on open list: (R 0 0 0)
+((R 0 0 0))
+* (depth *startf* goalf     *goalf* *movesf*)
+First on open list: (L 1 1 1)
+First on open list: (R 1 0 1)
+First on open list: (L 1 0 1)
+First on open list: (R 0 0 1)
+First on open list: (L 0 1 1)
+First on open list: (R 0 1 0)
+First on open list: (L 0 1 0)
+First on open list: (R 0 0 0)
+Length off open list: 4
+NIL
+* (r breadth   *startj* *goalj* m *moves* j*)
+First on open list: (0 0)
+First on open list: (0 5)
+First on open list: (3 0)
+^C
+debugger invoked on a SB-SYS:INTERACTIVE-INTERRUPT in thread
+#<THREAD "main thread" RUNNING {10005E85B3}>:
+  Interactive interrupt at #x21B410E4.
+
+Type HELP for debugger help, or (SB-EXT:EXIT) to exit from SBCL.
+
+restarts (invokable by number or by possibly-abbreviated name):
+  0: [CONTINUE] Return from SB-UNIX:SIGINT.
+  1: [ABORT   ] Exit debugger, returning to top level.
+
+((LABELS SB-IMPL::EQUAL-AUX :IN EQUAL) (-4900 5) (-2253 0))
+0] 1
+* (exit)
+[1m[7m%[27m[1m[0m ]2;kahlin@casca: ~/361/hw2]1;~/361/hw2[0m[27m[24m[J[01;32m➜  [36mhw2[00m [K[?1h=[?2004heexe  eexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2020-02-14 23:36:44-1000

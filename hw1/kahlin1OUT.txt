@@ -1,0 +1,64 @@
+Script started on 2020-01-16 12:00:56-1000
+
+1: 6 guesses
+44: 6 guesses
+88: 3 guesses
+
+
+[1m[7m%[27m[1m[0m                                                                                ]2;kahlin@casca: ~/361/hw1]1;~/361/hw1[0m[27m[24m[J[01;32m➜  [36mhw1[00m [K[?1h=[?2004hssbcl --load guess.lsi  isp[?1l>[?2004l
+]2;sbcl --load guess.lisp]1;sbclThis is SBCL 1.4.5.debian, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+* (guess-my-number)
+
+50
+* (smaller)
+
+25
+* (smaller)
+
+12
+* (smaller)
+
+6
+* (smaller)
+
+3
+* (smaller)
+
+1
+* (start-over)
+
+50
+* (smaller)
+
+25
+* (biger  ger)
+
+37
+* (bigger)
+
+43
+* (bigger)
+
+46
+* (smaller)
+
+44
+* (start-over)
+
+50
+* (bigger)
+
+75
+* (bigger)
+
+88
+* (exit)
+[1m[7m%[27m[1m[0m                                                                                ]2;kahlin@casca: ~/361/hw1]1;~/361/hw1[0m[27m[24m[J[01;32m➜  [36mhw1[00m [K[?1h=[?2004heexit[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2020-01-16 12:02:36-1000
